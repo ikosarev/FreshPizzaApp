@@ -12,6 +12,7 @@
 #import "EnterLocationVC.h"
 #import "SearchAddressVC.h"
 #import <GoogleMaps/GoogleMaps.h>
+#import <CoreLocation/CoreLocation.h>
 #import "HTTPService.h"
 #import "JsonParser.h"
 #import "StringOperations.h"
@@ -40,7 +41,9 @@
     self.addressLbl.text = @"";
     self.mapView.delegate = self;
     locationManager.delegate = self;
+    
     [locationManager requestWhenInUseAuthorization];
+    
     [self.iAmHereBtn setEnabled:NO];
     [self.iAmHereBtn setBackgroundColor:UIColor.appGrayColor];
 }
@@ -54,6 +57,7 @@
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:self.latitude
                                                             longitude:self.longitude
                                                                  zoom:17];
+    self.mapView.settings.zoomGestures = NO;
     self.mapView.camera = camera;
     NSBundle *mainBundle = [NSBundle mainBundle];
     NSURL *styleUrl = [mainBundle URLForResource:@"style" withExtension:@"json"];
@@ -81,20 +85,10 @@
 
 #pragma mark - CLLocation Manager
 
--(void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status{
-    if ([CLLocationManager authorizationStatus] == kCLAuthorizationStatusAuthorizedWhenInUse){
-        [locationManager startUpdatingLocation];
+- (void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status{
+    if (status == kCLAuthorizationStatusAuthorizedWhenInUse){
+        [self.mapView animateToLocation:self.mapView.myLocation.coordinate];
     }
-}
-
--(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray<CLLocation *> *)locations{
-    CLLocation *location = [locations firstObject];
-    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:location.coordinate.latitude
-                                                            longitude:location.coordinate.longitude
-                                                                 zoom:20];
-    self.mapView.camera = camera;
-
-    [locationManager stopUpdatingLocation];
 }
 
 #pragma mark - GMS MapView
@@ -120,7 +114,6 @@
             if(returnedJson){
             [JsonParser getAddressFromAddressJson:returnedJson handler:^(bool success, NSString *address) {
                 if(success){
-                    NSLog(@"WhereToDeliverVC - address: %@", address);
                         [self stopLoadingAnimation];
                         isAddressValid = YES;
                         if (BETWEEN(self.latitude, moscowBoundsLatMin, moscowBoundsLatMax) && (BETWEEN(self.longitude, moscowBoundsLngMin, moscowBoundsLngMax))){
@@ -205,8 +198,11 @@
 #pragma mark - IBActions
 
 - (IBAction)centerViewBtnWasPressed:(id)sender {
-    NSLog(@"User's location: %@", self.mapView.myLocation);
-    [self.mapView animateToLocation:self.mapView.myLocation.coordinate];
+    if([CLLocationManager authorizationStatus] == kCLAuthorizationStatusAuthorizedWhenInUse){
+        [self.mapView animateToLocation:self.mapView.myLocation.coordinate];
+    } else {
+        [locationManager requestWhenInUseAuthorization];
+    }
 }
 
 - (IBAction)backBtnWasPressed:(id)sender {

@@ -30,6 +30,8 @@
 	<true/>
 	<key>NSLocationUsageDescription</key>
 	<string>Чтобы доставить вам пиццу, нам нужно знать где вы находитесь</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Чтобы доставить вам пиццу, нам нужно знать где вы находитесь</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Чтобы доставить вам пиццу, нам нужно знать где вы находитесь</string>
 	<key>UIAppFonts</key>
