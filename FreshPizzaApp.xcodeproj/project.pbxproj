@@ -1,0 +1,867 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5CF2AAB09B2B5D2DEE092BA /* libPods-FreshPizzaApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABFD40A0B5C65FCB32C9563 /* libPods-FreshPizzaApp.a */; };
+		D101CBB72068106F000A7363 /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D101CBB62068106F000A7363 /* ItemCell.m */; };
+		D10A357B207A97E000A020A6 /* TopView.m in Sources */ = {isa = PBXBuildFile; fileRef = D10A357A207A97E000A020A6 /* TopView.m */; };
+		D10A3584207BA48700A020A6 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D10A3583207BA48700A020A6 /* CoreDataManager.m */; };
+		D11CA26A2041F1B4007CF153 /* WhereToDeliverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D11CA2692041F1B4007CF153 /* WhereToDeliverVC.m */; };
+		D11CA26D2041F1CD007CF153 /* SearchAddressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D11CA26C2041F1CD007CF153 /* SearchAddressVC.m */; };
+		D11CA2702041FE83007CF153 /* IntroVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D11CA26F2041FE83007CF153 /* IntroVC.m */; };
+		D128B962205BF48E00EE7202 /* JsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D128B961205BF48E00EE7202 /* JsonParser.m */; };
+		D1297D7D20652C82006DE0BE /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = D1297D7C20652C82006DE0BE /* Company.m */; };
+		D12B01E5206ED6CF00011F9F /* OrderTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D12B01E4206ED6CF00011F9F /* OrderTVC.m */; };
+		D132148A207007C90022B5C9 /* SettingsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D1321489207007C90022B5C9 /* SettingsTVC.m */; };
+		D132148F20701D390022B5C9 /* InfoTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D132148E20701D390022B5C9 /* InfoTVC.m */; };
+		D133C97420571C0B00AA7950 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D133C97320571C0B00AA7950 /* MainVC.m */; };
+		D133C97A20571C5800AA7950 /* ShoppingCartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D133C97920571C5800AA7950 /* ShoppingCartVC.m */; };
+		D133C97D20571C7800AA7950 /* InfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D133C97C20571C7800AA7950 /* InfoVC.m */; };
+		D133C983205725D400AA7950 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = D133C982205725D400AA7950 /* Constants.m */; };
+		D133C9862058562A00AA7950 /* AddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D133C9852058562A00AA7950 /* AddressCell.m */; };
+		D133C98A205999DF00AA7950 /* HTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = D133C989205999DF00AA7950 /* HTTPService.m */; };
+		D13918D8208BC6800097CDBC /* LogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = D13918D7208BC6800097CDBC /* LogoView.m */; };
+		D13918DB208BCCA40097CDBC /* RoundedLeftBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = D13918DA208BCCA40097CDBC /* RoundedLeftBtn.m */; };
+		D13918DE208BCCB80097CDBC /* RoundedRightBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = D13918DD208BCCB80097CDBC /* RoundedRightBtn.m */; };
+		D15E2BA52062FAB3001CB5E8 /* FireBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = D15E2BA42062FAB3001CB5E8 /* FireBaseService.m */; };
+		D15E2BA72062FE0A001CB5E8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D15E2BA62062FE0A001CB5E8 /* GoogleService-Info.plist */; };
+		D16BD312205659C000573671 /* RoundedBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = D16BD311205659C000573671 /* RoundedBtn.m */; };
+		D1778CB4205A570A0052DB5E /* StringOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = D1778CB3205A570A0052DB5E /* StringOperations.m */; };
+		D18A3AE0207CE3C700BCFDAD /* UIColor+AppColors.m in Sources */ = {isa = PBXBuildFile; fileRef = D18A3ADF207CE3C700BCFDAD /* UIColor+AppColors.m */; };
+		D18A3AE8207CFAF200BCFDAD /* FreshPizzaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D18A3AE7207CFAF200BCFDAD /* FreshPizzaAppTests.m */; };
+		D18A3B04207E9BDD00BCFDAD /* address.json in Resources */ = {isa = PBXBuildFile; fileRef = D18A3B03207E9BDD00BCFDAD /* address.json */; };
+		D18F49EF205ECB4B002D9F60 /* TabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D18F49EE205ECB4B002D9F60 /* TabBarVC.m */; };
+		D18F49F1205F076B002D9F60 /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = D18F49F0205F076B002D9F60 /* style.json */; };
+		D19C37D420735F75006A7F8F /* UIViewController+Transitions.m in Sources */ = {isa = PBXBuildFile; fileRef = D19C37D320735F75006A7F8F /* UIViewController+Transitions.m */; };
+		D1B3272720417070005EB566 /* SFUIText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1B326FD20417070005EB566 /* SFUIText-Medium.ttf */; };
+		D1B3272B20417070005EB566 /* SFUIText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1B3270120417070005EB566 /* SFUIText-Regular.ttf */; };
+		D1E4A85C2076C65500158656 /* AddressManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E4A85B2076C65500158656 /* AddressManager.m */; };
+		D1F1F6A62061458F00040AE1 /* CompanyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F1F6A52061458F00040AE1 /* CompanyCell.m */; };
+		D1F1F6A92061565700040AE1 /* RoundedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F1F6A82061565700040AE1 /* RoundedView.m */; };
+		D1F1F6AC2061571200040AE1 /* RoundedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F1F6AB2061571200040AE1 /* RoundedImageView.m */; };
+		D1F2102F203D4E7400999D3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F2102E203D4E7400999D3C /* AppDelegate.m */; };
+		D1F21032203D4E7400999D3C /* EnterLocationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F21031203D4E7400999D3C /* EnterLocationVC.m */; };
+		D1F21035203D4E7500999D3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1F21033203D4E7500999D3C /* Main.storyboard */; };
+		D1F21038203D4E7500999D3C /* FreshPizzaApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1F21036203D4E7500999D3C /* FreshPizzaApp.xcdatamodeld */; };
+		D1F2103D203D4E7500999D3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1F2103B203D4E7500999D3C /* LaunchScreen.storyboard */; };
+		D1F21040203D4E7500999D3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F2103F203D4E7500999D3C /* main.m */; };
+		D1F61A102061A531005D9D88 /* CompanyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F61A0F2061A531005D9D88 /* CompanyVC.m */; };
+		D1F61A132061A59F005D9D88 /* OrderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F61A122061A59F005D9D88 /* OrderVC.m */; };
+		D1F61A162061A5C5005D9D88 /* ConfirmationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F61A152061A5C5005D9D88 /* ConfirmationVC.m */; };
+		D1FD7E0220664C9A00E104D8 /* SettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FD7E0120664C9A00E104D8 /* SettingsVC.m */; };
+		D1FD7E0820668EDD00E104D8 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FD7E0720668EDD00E104D8 /* Item.m */; };
+		D1FD7E102067AA1C00E104D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1FD7E0F2067AA1B00E104D8 /* Assets.xcassets */; };
+		D1FD7E132067BE0100E104D8 /* ItemVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FD7E122067BE0100E104D8 /* ItemVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D18A3AEA207CFAF200BCFDAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1F21022203D4E7400999D3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1F21029203D4E7400999D3C;
+			remoteInfo = FreshPizzaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A86673BAA386C6B697D287D /* Pods-FreshPizzaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshPizzaApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreshPizzaApp/Pods-FreshPizzaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AABFD40A0B5C65FCB32C9563 /* libPods-FreshPizzaApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FreshPizzaApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C971D40275BD1DFAFE7E5A6F /* Pods-FreshPizzaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshPizzaApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreshPizzaApp/Pods-FreshPizzaApp.release.xcconfig"; sourceTree = "<group>"; };
+		D101CBB52068106F000A7363 /* ItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCell.h; sourceTree = "<group>"; };
+		D101CBB62068106F000A7363 /* ItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCell.m; sourceTree = "<group>"; };
+		D10A3579207A97E000A020A6 /* TopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopView.h; sourceTree = "<group>"; };
+		D10A357A207A97E000A020A6 /* TopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopView.m; sourceTree = "<group>"; };
+		D10A3582207BA48700A020A6 /* CoreDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		D10A3583207BA48700A020A6 /* CoreDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		D113C9182069370300621940 /* ItemCellDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemCellDelegate.h; sourceTree = "<group>"; };
+		D11CA2682041F1B4007CF153 /* WhereToDeliverVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhereToDeliverVC.h; sourceTree = "<group>"; };
+		D11CA2692041F1B4007CF153 /* WhereToDeliverVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhereToDeliverVC.m; sourceTree = "<group>"; };
+		D11CA26B2041F1CD007CF153 /* SearchAddressVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchAddressVC.h; sourceTree = "<group>"; };
+		D11CA26C2041F1CD007CF153 /* SearchAddressVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchAddressVC.m; sourceTree = "<group>"; };
+		D11CA26E2041FE83007CF153 /* IntroVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroVC.h; sourceTree = "<group>"; };
+		D11CA26F2041FE83007CF153 /* IntroVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroVC.m; sourceTree = "<group>"; };
+		D128B960205BF48E00EE7202 /* JsonParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonParser.h; sourceTree = "<group>"; };
+		D128B961205BF48E00EE7202 /* JsonParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonParser.m; sourceTree = "<group>"; };
+		D1297D7B20652C82006DE0BE /* Company.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Company.h; sourceTree = "<group>"; };
+		D1297D7C20652C82006DE0BE /* Company.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Company.m; sourceTree = "<group>"; };
+		D12B01E3206ED6CF00011F9F /* OrderTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderTVC.h; sourceTree = "<group>"; };
+		D12B01E4206ED6CF00011F9F /* OrderTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderTVC.m; sourceTree = "<group>"; };
+		D1321488207007C90022B5C9 /* SettingsTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsTVC.h; sourceTree = "<group>"; };
+		D1321489207007C90022B5C9 /* SettingsTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsTVC.m; sourceTree = "<group>"; };
+		D132148B20700D1B0022B5C9 /* SettingsDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsDelegate.h; sourceTree = "<group>"; };
+		D132148C20700D2E0022B5C9 /* OrderDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderDelegate.h; sourceTree = "<group>"; };
+		D132148D20701D390022B5C9 /* InfoTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoTVC.h; sourceTree = "<group>"; };
+		D132148E20701D390022B5C9 /* InfoTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoTVC.m; sourceTree = "<group>"; };
+		D133C97220571C0B00AA7950 /* MainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		D133C97320571C0B00AA7950 /* MainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		D133C97820571C5800AA7950 /* ShoppingCartVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingCartVC.h; sourceTree = "<group>"; };
+		D133C97920571C5800AA7950 /* ShoppingCartVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartVC.m; sourceTree = "<group>"; };
+		D133C97B20571C7800AA7950 /* InfoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoVC.h; sourceTree = "<group>"; };
+		D133C97C20571C7800AA7950 /* InfoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoVC.m; sourceTree = "<group>"; };
+		D133C981205725D400AA7950 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		D133C982205725D400AA7950 /* Constants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		D133C9842058562A00AA7950 /* AddressCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressCell.h; sourceTree = "<group>"; };
+		D133C9852058562A00AA7950 /* AddressCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressCell.m; sourceTree = "<group>"; };
+		D133C988205999DF00AA7950 /* HTTPService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTPService.h; sourceTree = "<group>"; };
+		D133C989205999DF00AA7950 /* HTTPService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTTPService.m; sourceTree = "<group>"; };
+		D13918D6208BC6800097CDBC /* LogoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogoView.h; sourceTree = "<group>"; };
+		D13918D7208BC6800097CDBC /* LogoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogoView.m; sourceTree = "<group>"; };
+		D13918D9208BCCA40097CDBC /* RoundedLeftBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundedLeftBtn.h; sourceTree = "<group>"; };
+		D13918DA208BCCA40097CDBC /* RoundedLeftBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundedLeftBtn.m; sourceTree = "<group>"; };
+		D13918DC208BCCB80097CDBC /* RoundedRightBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundedRightBtn.h; sourceTree = "<group>"; };
+		D13918DD208BCCB80097CDBC /* RoundedRightBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundedRightBtn.m; sourceTree = "<group>"; };
+		D15E2BA32062FAB3001CB5E8 /* FireBaseService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FireBaseService.h; sourceTree = "<group>"; };
+		D15E2BA42062FAB3001CB5E8 /* FireBaseService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FireBaseService.m; sourceTree = "<group>"; };
+		D15E2BA62062FE0A001CB5E8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D16BD310205659C000573671 /* RoundedBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundedBtn.h; sourceTree = "<group>"; };
+		D16BD311205659C000573671 /* RoundedBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundedBtn.m; sourceTree = "<group>"; };
+		D1778CB2205A570A0052DB5E /* StringOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringOperations.h; sourceTree = "<group>"; };
+		D1778CB3205A570A0052DB5E /* StringOperations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringOperations.m; sourceTree = "<group>"; };
+		D18A3ADE207CE3C700BCFDAD /* UIColor+AppColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+AppColors.h"; sourceTree = "<group>"; };
+		D18A3ADF207CE3C700BCFDAD /* UIColor+AppColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AppColors.m"; sourceTree = "<group>"; };
+		D18A3AE5207CFAF200BCFDAD /* FreshPizzaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreshPizzaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18A3AE7207CFAF200BCFDAD /* FreshPizzaAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreshPizzaAppTests.m; sourceTree = "<group>"; };
+		D18A3AE9207CFAF200BCFDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D18A3B03207E9BDD00BCFDAD /* address.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = address.json; sourceTree = "<group>"; };
+		D18F49ED205ECB4B002D9F60 /* TabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarVC.h; sourceTree = "<group>"; };
+		D18F49EE205ECB4B002D9F60 /* TabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarVC.m; sourceTree = "<group>"; };
+		D18F49F0205F076B002D9F60 /* style.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
+		D19C37D220735F75006A7F8F /* UIViewController+Transitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Transitions.h"; sourceTree = "<group>"; };
+		D19C37D320735F75006A7F8F /* UIViewController+Transitions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Transitions.m"; sourceTree = "<group>"; };
+		D1B326FD20417070005EB566 /* SFUIText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Medium.ttf"; sourceTree = "<group>"; };
+		D1B3270120417070005EB566 /* SFUIText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Regular.ttf"; sourceTree = "<group>"; };
+		D1D81C1C2072815C008FFB1A /* ItemDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemDelegate.h; sourceTree = "<group>"; };
+		D1E4A85A2076C65500158656 /* AddressManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressManager.h; sourceTree = "<group>"; };
+		D1E4A85B2076C65500158656 /* AddressManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressManager.m; sourceTree = "<group>"; };
+		D1F1F6A42061458F00040AE1 /* CompanyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompanyCell.h; sourceTree = "<group>"; };
+		D1F1F6A52061458F00040AE1 /* CompanyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompanyCell.m; sourceTree = "<group>"; };
+		D1F1F6A72061565700040AE1 /* RoundedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundedView.h; sourceTree = "<group>"; };
+		D1F1F6A82061565700040AE1 /* RoundedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundedView.m; sourceTree = "<group>"; };
+		D1F1F6AA2061571200040AE1 /* RoundedImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundedImageView.h; sourceTree = "<group>"; };
+		D1F1F6AB2061571200040AE1 /* RoundedImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundedImageView.m; sourceTree = "<group>"; };
+		D1F2102A203D4E7400999D3C /* FreshPizzaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreshPizzaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1F2102D203D4E7400999D3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D1F2102E203D4E7400999D3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D1F21030203D4E7400999D3C /* EnterLocationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnterLocationVC.h; sourceTree = "<group>"; };
+		D1F21031203D4E7400999D3C /* EnterLocationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnterLocationVC.m; sourceTree = "<group>"; };
+		D1F21034203D4E7500999D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1F21037203D4E7500999D3C /* FreshPizzaApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FreshPizzaApp.xcdatamodel; sourceTree = "<group>"; };
+		D1F2103C203D4E7500999D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1F2103E203D4E7500999D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1F2103F203D4E7500999D3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1F61A0E2061A531005D9D88 /* CompanyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompanyVC.h; sourceTree = "<group>"; };
+		D1F61A0F2061A531005D9D88 /* CompanyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompanyVC.m; sourceTree = "<group>"; };
+		D1F61A112061A59F005D9D88 /* OrderVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderVC.h; sourceTree = "<group>"; };
+		D1F61A122061A59F005D9D88 /* OrderVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderVC.m; sourceTree = "<group>"; };
+		D1F61A142061A5C5005D9D88 /* ConfirmationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfirmationVC.h; sourceTree = "<group>"; };
+		D1F61A152061A5C5005D9D88 /* ConfirmationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfirmationVC.m; sourceTree = "<group>"; };
+		D1FD7E0020664C9A00E104D8 /* SettingsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsVC.h; sourceTree = "<group>"; };
+		D1FD7E0120664C9A00E104D8 /* SettingsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsVC.m; sourceTree = "<group>"; };
+		D1FD7E0620668EDD00E104D8 /* Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		D1FD7E0720668EDD00E104D8 /* Item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		D1FD7E0F2067AA1B00E104D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1FD7E112067BE0100E104D8 /* ItemVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemVC.h; sourceTree = "<group>"; };
+		D1FD7E122067BE0100E104D8 /* ItemVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D18A3AE2207CFAF200BCFDAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F21027203D4E7400999D3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CF2AAB09B2B5D2DEE092BA /* libPods-FreshPizzaApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EDE7BC32F98DA08B21DD375 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AABFD40A0B5C65FCB32C9563 /* libPods-FreshPizzaApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D114AE85205D0082004175EB /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				D113C9182069370300621940 /* ItemCellDelegate.h */,
+				D132148B20700D1B0022B5C9 /* SettingsDelegate.h */,
+				D132148C20700D2E0022B5C9 /* OrderDelegate.h */,
+				D1D81C1C2072815C008FFB1A /* ItemDelegate.h */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		D11CA2662041B19C007CF153 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D1297D7B20652C82006DE0BE /* Company.h */,
+				D1297D7C20652C82006DE0BE /* Company.m */,
+				D1FD7E0620668EDD00E104D8 /* Item.h */,
+				D1FD7E0720668EDD00E104D8 /* Item.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D11CA2672041B1A8007CF153 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1F21030203D4E7400999D3C /* EnterLocationVC.h */,
+				D1F21031203D4E7400999D3C /* EnterLocationVC.m */,
+				D11CA2682041F1B4007CF153 /* WhereToDeliverVC.h */,
+				D11CA2692041F1B4007CF153 /* WhereToDeliverVC.m */,
+				D11CA26B2041F1CD007CF153 /* SearchAddressVC.h */,
+				D11CA26C2041F1CD007CF153 /* SearchAddressVC.m */,
+				D11CA26E2041FE83007CF153 /* IntroVC.h */,
+				D11CA26F2041FE83007CF153 /* IntroVC.m */,
+				D133C97220571C0B00AA7950 /* MainVC.h */,
+				D133C97320571C0B00AA7950 /* MainVC.m */,
+				D133C97820571C5800AA7950 /* ShoppingCartVC.h */,
+				D133C97920571C5800AA7950 /* ShoppingCartVC.m */,
+				D18F49ED205ECB4B002D9F60 /* TabBarVC.h */,
+				D18F49EE205ECB4B002D9F60 /* TabBarVC.m */,
+				D1F61A0E2061A531005D9D88 /* CompanyVC.h */,
+				D1F61A0F2061A531005D9D88 /* CompanyVC.m */,
+				D1F61A142061A5C5005D9D88 /* ConfirmationVC.h */,
+				D1F61A152061A5C5005D9D88 /* ConfirmationVC.m */,
+				D1FD7E112067BE0100E104D8 /* ItemVC.h */,
+				D1FD7E122067BE0100E104D8 /* ItemVC.m */,
+				D1F61A112061A59F005D9D88 /* OrderVC.h */,
+				D1F61A122061A59F005D9D88 /* OrderVC.m */,
+				D12B01E3206ED6CF00011F9F /* OrderTVC.h */,
+				D12B01E4206ED6CF00011F9F /* OrderTVC.m */,
+				D1FD7E0020664C9A00E104D8 /* SettingsVC.h */,
+				D1FD7E0120664C9A00E104D8 /* SettingsVC.m */,
+				D1321488207007C90022B5C9 /* SettingsTVC.h */,
+				D1321489207007C90022B5C9 /* SettingsTVC.m */,
+				D133C97B20571C7800AA7950 /* InfoVC.h */,
+				D133C97C20571C7800AA7950 /* InfoVC.m */,
+				D132148D20701D390022B5C9 /* InfoTVC.h */,
+				D132148E20701D390022B5C9 /* InfoTVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D133C9872059922B00AA7950 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D133C988205999DF00AA7950 /* HTTPService.h */,
+				D133C989205999DF00AA7950 /* HTTPService.m */,
+				D1778CB2205A570A0052DB5E /* StringOperations.h */,
+				D1778CB3205A570A0052DB5E /* StringOperations.m */,
+				D128B960205BF48E00EE7202 /* JsonParser.h */,
+				D128B961205BF48E00EE7202 /* JsonParser.m */,
+				D15E2BA32062FAB3001CB5E8 /* FireBaseService.h */,
+				D15E2BA42062FAB3001CB5E8 /* FireBaseService.m */,
+				D1E4A85A2076C65500158656 /* AddressManager.h */,
+				D1E4A85B2076C65500158656 /* AddressManager.m */,
+				D10A3582207BA48700A020A6 /* CoreDataManager.h */,
+				D10A3583207BA48700A020A6 /* CoreDataManager.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D16BD30F2055BB8600573671 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D101CBB52068106F000A7363 /* ItemCell.h */,
+				D101CBB62068106F000A7363 /* ItemCell.m */,
+				D16BD310205659C000573671 /* RoundedBtn.h */,
+				D16BD311205659C000573671 /* RoundedBtn.m */,
+				D133C9842058562A00AA7950 /* AddressCell.h */,
+				D133C9852058562A00AA7950 /* AddressCell.m */,
+				D1F1F6A42061458F00040AE1 /* CompanyCell.h */,
+				D1F1F6A52061458F00040AE1 /* CompanyCell.m */,
+				D1F1F6A72061565700040AE1 /* RoundedView.h */,
+				D1F1F6A82061565700040AE1 /* RoundedView.m */,
+				D1F1F6AA2061571200040AE1 /* RoundedImageView.h */,
+				D1F1F6AB2061571200040AE1 /* RoundedImageView.m */,
+				D10A3579207A97E000A020A6 /* TopView.h */,
+				D10A357A207A97E000A020A6 /* TopView.m */,
+				D13918D6208BC6800097CDBC /* LogoView.h */,
+				D13918D7208BC6800097CDBC /* LogoView.m */,
+				D13918D9208BCCA40097CDBC /* RoundedLeftBtn.h */,
+				D13918DA208BCCA40097CDBC /* RoundedLeftBtn.m */,
+				D13918DC208BCCB80097CDBC /* RoundedRightBtn.h */,
+				D13918DD208BCCB80097CDBC /* RoundedRightBtn.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D18A3AE6207CFAF200BCFDAD /* FreshPizzaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D18A3AFF207E924500BCFDAD /* TestResources */,
+				D18A3AE7207CFAF200BCFDAD /* FreshPizzaAppTests.m */,
+				D18A3AE9207CFAF200BCFDAD /* Info.plist */,
+			);
+			path = FreshPizzaAppTests;
+			sourceTree = "<group>";
+		};
+		D18A3AFF207E924500BCFDAD /* TestResources */ = {
+			isa = PBXGroup;
+			children = (
+				D18A3B03207E9BDD00BCFDAD /* address.json */,
+			);
+			path = TestResources;
+			sourceTree = "<group>";
+		};
+		D1B326F82041705A005EB566 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D1B326FD20417070005EB566 /* SFUIText-Medium.ttf */,
+				D1B3270120417070005EB566 /* SFUIText-Regular.ttf */,
+				D133C981205725D400AA7950 /* Constants.h */,
+				D133C982205725D400AA7950 /* Constants.m */,
+				D18F49F0205F076B002D9F60 /* style.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D1D81C1820726F7D008FFB1A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D19C37D220735F75006A7F8F /* UIViewController+Transitions.h */,
+				D19C37D320735F75006A7F8F /* UIViewController+Transitions.m */,
+				D18A3ADE207CE3C700BCFDAD /* UIColor+AppColors.h */,
+				D18A3ADF207CE3C700BCFDAD /* UIColor+AppColors.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		D1F21021203D4E7400999D3C = {
+			isa = PBXGroup;
+			children = (
+				D1F2102C203D4E7400999D3C /* FreshPizzaApp */,
+				D18A3AE6207CFAF200BCFDAD /* FreshPizzaAppTests */,
+				D1F2102B203D4E7400999D3C /* Products */,
+				F989B9E558E137C673AC05F0 /* Pods */,
+				9EDE7BC32F98DA08B21DD375 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D1F2102B203D4E7400999D3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1F2102A203D4E7400999D3C /* FreshPizzaApp.app */,
+				D18A3AE5207CFAF200BCFDAD /* FreshPizzaAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1F2102C203D4E7400999D3C /* FreshPizzaApp */ = {
+			isa = PBXGroup;
+			children = (
+				D1D81C1820726F7D008FFB1A /* Categories */,
+				D114AE85205D0082004175EB /* Delegates */,
+				D133C9872059922B00AA7950 /* Services */,
+				D11CA2662041B19C007CF153 /* Model */,
+				D16BD30F2055BB8600573671 /* View */,
+				D11CA2672041B1A8007CF153 /* Controller */,
+				D1B326F82041705A005EB566 /* Resources */,
+				D1F2102D203D4E7400999D3C /* AppDelegate.h */,
+				D1F2102E203D4E7400999D3C /* AppDelegate.m */,
+				D1FD7E0F2067AA1B00E104D8 /* Assets.xcassets */,
+				D1F21033203D4E7500999D3C /* Main.storyboard */,
+				D1F2103B203D4E7500999D3C /* LaunchScreen.storyboard */,
+				D15E2BA62062FE0A001CB5E8 /* GoogleService-Info.plist */,
+				D1F21036203D4E7500999D3C /* FreshPizzaApp.xcdatamodeld */,
+				D1F2103E203D4E7500999D3C /* Info.plist */,
+				D1F2103F203D4E7500999D3C /* main.m */,
+			);
+			path = FreshPizzaApp;
+			sourceTree = "<group>";
+		};
+		F989B9E558E137C673AC05F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A86673BAA386C6B697D287D /* Pods-FreshPizzaApp.debug.xcconfig */,
+				C971D40275BD1DFAFE7E5A6F /* Pods-FreshPizzaApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D18A3AE4207CFAF200BCFDAD /* FreshPizzaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D18A3AEC207CFAF200BCFDAD /* Build configuration list for PBXNativeTarget "FreshPizzaAppTests" */;
+			buildPhases = (
+				D18A3AE1207CFAF200BCFDAD /* Sources */,
+				D18A3AE2207CFAF200BCFDAD /* Frameworks */,
+				D18A3AE3207CFAF200BCFDAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D18A3AEB207CFAF200BCFDAD /* PBXTargetDependency */,
+			);
+			name = FreshPizzaAppTests;
+			productName = FreshPizzaAppTests;
+			productReference = D18A3AE5207CFAF200BCFDAD /* FreshPizzaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1F21029203D4E7400999D3C /* FreshPizzaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1F21043203D4E7500999D3C /* Build configuration list for PBXNativeTarget "FreshPizzaApp" */;
+			buildPhases = (
+				4808E6E4FD070BB7CA265937 /* [CP] Check Pods Manifest.lock */,
+				D1F21026203D4E7400999D3C /* Sources */,
+				D1F21027203D4E7400999D3C /* Frameworks */,
+				D1F21028203D4E7400999D3C /* Resources */,
+				14F1DD857000BE259A4B0855 /* [CP] Embed Pods Frameworks */,
+				D07BAAE559D41717768F21A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreshPizzaApp;
+			productName = FreshPizzaApp;
+			productReference = D1F2102A203D4E7400999D3C /* FreshPizzaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1F21022203D4E7400999D3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Ivan Kosarev";
+				TargetAttributes = {
+					D18A3AE4207CFAF200BCFDAD = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D1F21029203D4E7400999D3C;
+					};
+					D1F21029203D4E7400999D3C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D1F21025203D4E7400999D3C /* Build configuration list for PBXProject "FreshPizzaApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1F21021203D4E7400999D3C;
+			productRefGroup = D1F2102B203D4E7400999D3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1F21029203D4E7400999D3C /* FreshPizzaApp */,
+				D18A3AE4207CFAF200BCFDAD /* FreshPizzaAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D18A3AE3207CFAF200BCFDAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18A3B04207E9BDD00BCFDAD /* address.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F21028203D4E7400999D3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F2103D203D4E7500999D3C /* LaunchScreen.storyboard in Resources */,
+				D1B3272B20417070005EB566 /* SFUIText-Regular.ttf in Resources */,
+				D1B3272720417070005EB566 /* SFUIText-Medium.ttf in Resources */,
+				D15E2BA72062FE0A001CB5E8 /* GoogleService-Info.plist in Resources */,
+				D1FD7E102067AA1C00E104D8 /* Assets.xcassets in Resources */,
+				D18F49F1205F076B002D9F60 /* style.json in Resources */,
+				D1F21035203D4E7500999D3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14F1DD857000BE259A4B0855 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreshPizzaApp/Pods-FreshPizzaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4808E6E4FD070BB7CA265937 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FreshPizzaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D07BAAE559D41717768F21A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FreshPizzaApp/Pods-FreshPizzaApp-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreshPizzaApp/Pods-FreshPizzaApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D18A3AE1207CFAF200BCFDAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18A3AE8207CFAF200BCFDAD /* FreshPizzaAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F21026203D4E7400999D3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D133C98A205999DF00AA7950 /* HTTPService.m in Sources */,
+				D1F61A132061A59F005D9D88 /* OrderVC.m in Sources */,
+				D133C97D20571C7800AA7950 /* InfoVC.m in Sources */,
+				D19C37D420735F75006A7F8F /* UIViewController+Transitions.m in Sources */,
+				D1FD7E132067BE0100E104D8 /* ItemVC.m in Sources */,
+				D1E4A85C2076C65500158656 /* AddressManager.m in Sources */,
+				D101CBB72068106F000A7363 /* ItemCell.m in Sources */,
+				D1F1F6A62061458F00040AE1 /* CompanyCell.m in Sources */,
+				D18A3AE0207CE3C700BCFDAD /* UIColor+AppColors.m in Sources */,
+				D13918D8208BC6800097CDBC /* LogoView.m in Sources */,
+				D1F21032203D4E7400999D3C /* EnterLocationVC.m in Sources */,
+				D1FD7E0220664C9A00E104D8 /* SettingsVC.m in Sources */,
+				D1F61A162061A5C5005D9D88 /* ConfirmationVC.m in Sources */,
+				D1F21038203D4E7500999D3C /* FreshPizzaApp.xcdatamodeld in Sources */,
+				D13918DB208BCCA40097CDBC /* RoundedLeftBtn.m in Sources */,
+				D13918DE208BCCB80097CDBC /* RoundedRightBtn.m in Sources */,
+				D18F49EF205ECB4B002D9F60 /* TabBarVC.m in Sources */,
+				D1F21040203D4E7500999D3C /* main.m in Sources */,
+				D133C97A20571C5800AA7950 /* ShoppingCartVC.m in Sources */,
+				D1FD7E0820668EDD00E104D8 /* Item.m in Sources */,
+				D12B01E5206ED6CF00011F9F /* OrderTVC.m in Sources */,
+				D1F1F6A92061565700040AE1 /* RoundedView.m in Sources */,
+				D133C97420571C0B00AA7950 /* MainVC.m in Sources */,
+				D1F2102F203D4E7400999D3C /* AppDelegate.m in Sources */,
+				D1778CB4205A570A0052DB5E /* StringOperations.m in Sources */,
+				D10A357B207A97E000A020A6 /* TopView.m in Sources */,
+				D133C983205725D400AA7950 /* Constants.m in Sources */,
+				D16BD312205659C000573671 /* RoundedBtn.m in Sources */,
+				D1F1F6AC2061571200040AE1 /* RoundedImageView.m in Sources */,
+				D132148A207007C90022B5C9 /* SettingsTVC.m in Sources */,
+				D11CA26A2041F1B4007CF153 /* WhereToDeliverVC.m in Sources */,
+				D128B962205BF48E00EE7202 /* JsonParser.m in Sources */,
+				D11CA26D2041F1CD007CF153 /* SearchAddressVC.m in Sources */,
+				D11CA2702041FE83007CF153 /* IntroVC.m in Sources */,
+				D10A3584207BA48700A020A6 /* CoreDataManager.m in Sources */,
+				D15E2BA52062FAB3001CB5E8 /* FireBaseService.m in Sources */,
+				D133C9862058562A00AA7950 /* AddressCell.m in Sources */,
+				D132148F20701D390022B5C9 /* InfoTVC.m in Sources */,
+				D1297D7D20652C82006DE0BE /* Company.m in Sources */,
+				D1F61A102061A531005D9D88 /* CompanyVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D18A3AEB207CFAF200BCFDAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1F21029203D4E7400999D3C /* FreshPizzaApp */;
+			targetProxy = D18A3AEA207CFAF200BCFDAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1F21033203D4E7500999D3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1F21034203D4E7500999D3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1F2103B203D4E7500999D3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1F2103C203D4E7500999D3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D18A3AED207CFAF200BCFDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DFU7544P59;
+				INFOPLIST_FILE = FreshPizzaAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivankosarev.FreshPizzaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreshPizzaApp.app/FreshPizzaApp";
+			};
+			name = Debug;
+		};
+		D18A3AEE207CFAF200BCFDAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DFU7544P59;
+				INFOPLIST_FILE = FreshPizzaAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivankosarev.FreshPizzaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreshPizzaApp.app/FreshPizzaApp";
+			};
+			name = Release;
+		};
+		D1F21041203D4E7500999D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D1F21042203D4E7500999D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1F21044203D4E7500999D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A86673BAA386C6B697D287D /* Pods-FreshPizzaApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DFU7544P59;
+				INFOPLIST_FILE = FreshPizzaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivankosarev.FreshPizzaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1F21045203D4E7500999D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C971D40275BD1DFAFE7E5A6F /* Pods-FreshPizzaApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DFU7544P59;
+				INFOPLIST_FILE = FreshPizzaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivankosarev.FreshPizzaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D18A3AEC207CFAF200BCFDAD /* Build configuration list for PBXNativeTarget "FreshPizzaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18A3AED207CFAF200BCFDAD /* Debug */,
+				D18A3AEE207CFAF200BCFDAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1F21025203D4E7400999D3C /* Build configuration list for PBXProject "FreshPizzaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1F21041203D4E7500999D3C /* Debug */,
+				D1F21042203D4E7500999D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1F21043203D4E7500999D3C /* Build configuration list for PBXNativeTarget "FreshPizzaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1F21044203D4E7500999D3C /* Debug */,
+				D1F21045203D4E7500999D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D1F21036203D4E7500999D3C /* FreshPizzaApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D1F21037203D4E7500999D3C /* FreshPizzaApp.xcdatamodel */,
+			);
+			currentVersion = D1F21037203D4E7500999D3C /* FreshPizzaApp.xcdatamodel */;
+			path = FreshPizzaApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D1F21022203D4E7400999D3C /* Project object */;
+}

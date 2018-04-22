@@ -1,0 +1,85 @@
+{
+    "results": [
+                {
+                "address_components": [
+                                       {
+                                       "long_name": "25",
+                                       "short_name": "25",
+                                       "types": [
+                                                 "street_number"
+                                                 ]
+                                       },
+                                       {
+                                       "long_name": "Смольная улица",
+                                       "short_name": "Смольная ул.",
+                                       "types": [
+                                                 "route"
+                                                 ]
+                                       },
+                                       {
+                                       "long_name": "Северный административный округ",
+                                       "short_name": "Северный административный округ",
+                                       "types": [
+                                                 "political",
+                                                 "sublocality",
+                                                 "sublocality_level_1"
+                                                 ]
+                                       },
+                                       {
+                                       "long_name": "Москва",
+                                       "short_name": "Москва",
+                                       "types": [
+                                                 "locality",
+                                                 "political"
+                                                 ]
+                                       },
+                                       {
+                                       "long_name": "Москва",
+                                       "short_name": "Москва",
+                                       "types": [
+                                                 "administrative_area_level_2",
+                                                 "political"
+                                                 ]
+                                       },
+                                       {
+                                       "long_name": "Россия",
+                                       "short_name": "RU",
+                                       "types": [
+                                                 "country",
+                                                 "political"
+                                                 ]
+                                       },
+                                       {
+                                       "long_name": "125493",
+                                       "short_name": "125493",
+                                       "types": [
+                                                 "postal_code"
+                                                 ]
+                                       }
+                                       ],
+                "formatted_address": "Смольная ул., 25, Москва, Россия, 125493",
+                "geometry": {
+                "location": {
+                "lat": 55.8498167,
+                "lng": 37.49457
+                },
+                "location_type": "ROOFTOP",
+                "viewport": {
+                "northeast": {
+                "lat": 55.8511656802915,
+                "lng": 37.49591898029149
+                },
+                "southwest": {
+                "lat": 55.8484677197085,
+                "lng": 37.49322101970849
+                }
+                }
+                },
+                "place_id": "ChIJfQZyHvo3tUYRAj2jwd87jws",
+                "types": [
+                          "street_address"
+                          ]
+                }
+                ],
+    "status": "OK"
+}
