@@ -127,7 +127,7 @@
     
     NSArray *coreDataAddressArray = [[CoreDataManager instance] fetchCoreDataAddressArray];
     
-    if([coreDataAddressArray containsObject:self.address]){
+    if(![coreDataAddressArray containsObject:self.address]){
     [[CoreDataManager instance] addAddressToCoreData:self.address];
     }
         

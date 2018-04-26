@@ -57,10 +57,10 @@
     return [super tableView:tableView numberOfRowsInSection:section];
 }
 
-// DEBUG
+
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-        return UITableViewAutomaticDimension; // DEBUG
+        return UITableViewAutomaticDimension; 
 }
 
 #pragma mark - UITextFieldDelegate
